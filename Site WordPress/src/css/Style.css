@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.promo{
+height: 800px;
+background: url(../img/Rectangle\ 1.jpg) center center /cover no-repeat;
+padding: 39px 0px 62px 0px;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+ .container{
+     margin: 0 auto;
+     width: 1140px;
+     position: relative;
+ }
+ .logo .logo_img{
+     display: block;
+margin: 0 auto;
+ }
+ .logo .logo_text{
+     color: white;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 500;
+     line-height: 24px;
+     text-transform: uppercase;
+     text-align: center;
+     margin-top: 14px;
+ }
+ h1{
+     margin-top: 53px;
+ }
+ .title{
+     color:orange;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 41px;
+     font-weight: 900;
+     line-height: 24px;
+     text-transform: uppercase ;
+     text-align: center;
+ }
+ h2.title{
+     margin-top: 30px;
+ }
+ .simple .title_big{
+    color: white;
+     font-size: 80px;
+     font-weight: 900;
+     text-align: center;
+     text-transform: uppercase ;
+     text-align: center;
+     margin-top: 21px;
+ }
+ .promo .promo_text{
+     padding: 0 13px;
+     margin-top: 23px;
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 28px;
+    text-transform: uppercase ;
+    text-align: center;
+ }
+ .promo .promo_text span{
+     color:orange;
+ font-weight: 700;
+ }
+ .promo .promo_btn, .present_btn{
+    
+     display: block;
+     width: 313px;
+     height: 72px;
+     box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.18);
+     border: 4px solid rgba(0, 0, 0, 0.23);
+     background-image: linear-gradient(to top, rgb(108, 203, 247) 0%, rgb(23, 165, 247) 100%);
+     margin: 0 auto;
+     margin-top: 73px;
+     color: white;
+     font-family: "Roboto Condensed";
+     font-size: 21px;
+     font-weight: 400;
+     text-align: center;
+     line-height: 24px;
+     text-transform: uppercase ;
+     cursor: pointer;
+ }
+  .more{
+      margin-top: 73px;
+  }
+  .more .more_text {
+    color: white;
+    font-family: "Roboto-Thin";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase ;
+  }
+  .more .more_img{
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px;
+  }
+  .waiting{
+      min-height: 604px;
+      background-color: rgb(226, 224, 224);
+      padding: 85px 0 75px;
+   
+  }
+  .waiting .weiting_header, .finish .finish_header{
+    color: rgb(5, 4, 4);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase ;
+  }
+  .finish .finish_header{
+      color:white;
+  }
+.waiting .weiting_devider,.finish .finish_devider{
+    width: 217px;
+    height: 4px;
+    background-color:orange;
+    margin-top:18px;
+    margin: 0 auto;
+   
+}
+.waiting .weiting_subheader{
+    color:rgb(70, 63, 70);
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center;
+}
+.waiting .waiting_wrapper{
+    margin: 45px;
+    display: flex;
+     justify-content: space-between;
+}
+.waiting .waiting_wrapper .waiting_item{
+    width: 339px;
+    text-align: center;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+    margin-top: 33px;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 21px;
+    color:rgb(12, 0, 12);
+}
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header{
+    margin-left: 391px;
+    font-size: 29px;
+    font-family: Roboto-black;
+    font-weight: 400;
+    color:rgb(101, 183, 238);
+    text-transform: uppercase;
+
+}
+.optimization .optimization_text{
+    margin-top: 25px;
+    margin-left: 391px;
+    font-size: 17px;
+    font-family: Roboto ligth;
+    font-weight: 300;
+    line-height: 21px;
+    color:#4a4a4a;
+}
+.optimization .optimization_text span{
+    font-family: Roboto bolt;
+    font-weight: 700;
+}
+.optimization .optimization_img{
+    position:absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/Layer\ 33.jpg') center center/cover no-repeat;
+}
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    width: 204px;    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  
+}
+.finish .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 20px;
+    color:white;
+}
+.present{
+    min-height: 500px;
+    background-color: rgb(226, 224, 224);
+    padding: 85px 0 75px;
+}
+ .image_present{
+    display: flex;  
+    justify-content: center;
+}
+.present .text_present{
+    margin: 45px;
+    color: rgb(5, 4, 4);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.ads{
+    min-height: 500px;
+    padding: 102px 0 0 0;
+}
+.ads .image_ads{
+    display: flex;  
+    justify-content: center;
+    margin:0 0 45px 0;
+}
+.ads .ads_text .little_ads{
+    margin: 25px;
+    color: rgb(5, 4, 4);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase ;
+}
+.ads .ads_text .big_ads{
+    margin: 25px;
+    text-align: center;
+    font-size: 29px;
+    font-family: Roboto bolt;
+    font-weight: 700;
+    color:rgb(101, 183, 238);
+    text-transform: uppercase;
+}
+.ads .ads_text .last_text{
+    margin: 25px;
+    color:rgb(70, 63, 70);
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center;
+}
+.footer{
+    min-height: 145px;
+    background-color: rgb(19, 16, 16);
+}
+.footer .dark_footer{
+    width: 500px;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+a{
+    color: rgb(155, 155, 155);
+}
+.footer .dark_footer .callme{
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .dark_footer .devider2{
+    width: 1px;
+    height: 14px;
+    background-color:rgb(155, 155, 155);
+    margin: 1px 4px 0 4px;   
+}
